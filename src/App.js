@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Btn from './Btn'
 import './App.css';
 import Nav from './Nav';
 
@@ -8,11 +8,7 @@ function Header(props) {
 
 function App(props) {
   return (
-    <>
-      <Header text="My Header"/>
-      <Nav />
-      <h1 className="App" >{props.title}</h1>
-    </>
+    <Btn />
   );
 }
 
